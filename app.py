@@ -6,7 +6,7 @@ import subprocess
 app = Flask(__name__)
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR-API-KEY"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
